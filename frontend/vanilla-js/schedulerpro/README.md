@@ -1,0 +1,21 @@
+# Bryntum Scheduler Pro frontend starter
+
+A basic frontend for a Bryntum Scheduler Pro. 
+
+## Install dependencies
+
+Run the following command to install the project dependencies:
+
+```bash
+npm install
+```
+
+## Run the development server
+
+Run the Vite development server:
+
+```bash
+npm run dev
+```
+
+The server will start on `http://localhost:5173`.
