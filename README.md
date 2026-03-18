@@ -20,6 +20,13 @@ The structure of this repo is as follows:
 │       ├── sqlite-scheduler/
 │       ├── sqlite-schedulerpro/
 │       └── sqlite-taskboard/
+│   └── laravel/
+│       ├── sqlite-calendar/
+│       ├── sqlite-gantt/
+│       ├── sqlite-grid/
+│       ├── sqlite-scheduler/
+│       ├── sqlite-schedulerpro/
+│       └── sqlite-taskboard/
 │
 └── frontend/
     └── vanilla-js/
@@ -29,6 +36,7 @@ The structure of this repo is as follows:
         ├── scheduler/
         ├── schedulerpro/
         └── taskboard/
-``` 
-                                                                      
-These examples use vanilla JS, if you use a frontend framework, take a look at the React, Angular, and Vue quickstart guides in our docs to get started.
+```
+
+These examples use vanilla JS, if you use a frontend framework, take a look at the React, Angular, and Vue quickstart
+guides in our docs to get started.
