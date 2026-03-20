@@ -10,6 +10,12 @@ Run the following command to install the project dependencies:
 npm install
 ```
 
+⚠️ You need a Bryntum licence to install `@bryntum/calendar`. If you don't have one, install the trial package:
+
+```bash
+npm install @bryntum/calendar@npm:@bryntum/calendar-trial
+```
+
 ## Run the development server
 
 Run the Vite development server:

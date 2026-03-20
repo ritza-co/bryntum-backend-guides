@@ -10,6 +10,12 @@ Run the following command to install the project dependencies:
 npm install
 ```
 
+⚠️ You need a Bryntum licence to install `@bryntum/taskboard`. If you don't have one, install the trial package:
+
+```bash
+npm install @bryntum/taskboard@npm:@bryntum/taskboard-trial
+```
+
 ## Run the development server
 
 Run the Vite development server:

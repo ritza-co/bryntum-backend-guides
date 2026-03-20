@@ -10,6 +10,12 @@ Run the following command to install the project dependencies:
 npm install
 ```
 
+⚠️ You need a Bryntum licence to install `@bryntum/scheduler`. If you don't have one, install the trial package:
+
+```bash
+npm install @bryntum/scheduler@npm:@bryntum/scheduler-trial
+```
+
 ## Run the development server
 
 Run the Vite development server:

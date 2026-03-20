@@ -10,6 +10,12 @@ Run the following command to install the project dependencies:
 npm install
 ```
 
+⚠️ You need a Bryntum licence to install `@bryntum/grid`. If you don't have one, install the trial package:
+
+```bash
+npm install @bryntum/grid@npm:@bryntum/grid-trial
+```
+
 ## Run the development server
 
 Run the Vite development server:
