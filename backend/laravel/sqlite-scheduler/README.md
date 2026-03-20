@@ -4,10 +4,11 @@ A basic Laravel API for performing CRUD operations on a SQLite database. For use
 
 ## Install dependencies
 
-Run the following command to install the project dependencies:
+Run the following commands to install the project dependencies and create a `.env` file:
 
 ```bash
 composer install
+cp .env.example .env
 ```
 
 ## Seed the database

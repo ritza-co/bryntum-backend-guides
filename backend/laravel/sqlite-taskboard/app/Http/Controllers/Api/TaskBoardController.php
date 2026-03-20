@@ -18,8 +18,11 @@ class TaskBoardController extends Controller
             $assignments = Assignment::all();
             $tasks = Task::all();
             $resources = Resource::all();
-            
+
+            $data = json_decode(request()->input('data'), true);
+
             return response()->json([
+                'requestId' => $data['requestId'] ?? null,
                 'assignments' => ['rows' => $assignments],
                 'tasks' => ['rows' => $tasks],
                 'resources' => ['rows' => $resources],

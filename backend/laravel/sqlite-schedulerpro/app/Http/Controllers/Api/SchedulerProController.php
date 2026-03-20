@@ -20,8 +20,11 @@ class SchedulerProController extends Controller
             $dependencies = Dependency::all();
             $events = Event::all();
             $resources = Resource::all();
-            
+
+            $data = json_decode(request()->input('data'), true);
+
             return response()->json([
+                'requestId' => $data['requestId'] ?? null,
                 'assignments' => ['rows' => $assignments],
                 'dependencies' => ['rows' => $dependencies],
                 'events' => ['rows' => $events],

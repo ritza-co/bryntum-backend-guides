@@ -20,9 +20,11 @@ class TaskController extends Controller
                 ->get();
             $dependencies = Dependency::orderBy('id', 'ASC')->get();
 
+            $data = json_decode(request()->input('data'), true);
+
             return response()->json([
                 'success' => true,
-                'requestId' => request()->header('X-Request-Id') ?? time(),
+                'requestId' => $data['requestId'] ?? null,
                 'revision' => 1,
                 'tasks' => [
                     'rows' => $tasks,
