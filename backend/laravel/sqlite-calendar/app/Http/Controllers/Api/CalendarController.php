@@ -16,8 +16,11 @@ class CalendarController extends Controller
         try {
             $events = Event::all();
             $resources = Resource::all();
-            
+
+            $data = json_decode(request()->input('data'), true);
+
             return response()->json([
+                'requestId' => $data['requestId'] ?? null,
                 'events' => ['rows' => $events],
                 'resources' => ['rows' => $resources],
             ]);
